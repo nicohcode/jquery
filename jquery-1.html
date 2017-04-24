@@ -3,21 +3,25 @@
 <head>
   <title>jQuery test page</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-     <script>
+   <script>
 
-   function getHeadline() {
-     var headline = $('h1').text();
-     return headline;
-   }
+ function getHeadline() {
+   $('h1').text();
 
-   function changeHeadLines() {
-     var headline1Text = $('h1').text("New headline");
-     var headline2Text = $('h2').text("A Wikipedia article");
-     return headline1Text;
-    return headline2Text;
-   }
+
+ }
+
+
+ function changeHeadlines() {
+  $('h1').text("New headline");
+  $('h2').text("A Wikipedia article");
+
+
+
+ }
+
 
 </script>
 
